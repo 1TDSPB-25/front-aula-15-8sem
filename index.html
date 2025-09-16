@@ -40,6 +40,7 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
 
     <main>
       <section>
+        <h2>Introdução ao HTML 5</h2>
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,6 +54,20 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
         </aside>
       </section>
       <section>
+        <h2>Estrutura de listas</h2>
+        <div aria-roledescrption="Lista de Produtos">
+        <ul style="list-style: none;">
+          <li>item 1</li>
+          <li>item 2
+            <ul style="list-style: none;">
+              <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-1</li>
+              <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-2</li>
+              <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-3</li>
+            </ul>
+          </li>
+          <li>item 3</li>
+        </ul>
+      </div>
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -68,11 +83,13 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
     </main>
     <footer>
       <nav>
-        <a href="https://www.facebook.com/?locale=pt_BR">Facebook</a>
-        <a href="https://x.com/?lang=pt">X</a>
-        <a href="https://www.instagram.com/">Instagram</a>
-        <a href="https://www.youtube.com/">Youtube</a>
-        <a href="https://www.linkedin.com/home?originalSubdomain=br">LinkedIn</a>
+        <ul>
+        <li><a href="https://www.facebook.com/?locale=pt_BR">Facebook</a></li>
+        <li><a href="https://x.com/?lang=pt">X</a></li>
+        <li><a href="https://www.instagram.com/">Instagram</a></li>
+        <li><a href="https://www.youtube.com/">Youtube</a></li>
+        <li><a href="https://www.linkedin.com/home?originalSubdomain=br">LinkedIn</a></li>
+        </ul>
       </nav>
       <p>&copy; Todos os direitos reservados - 2025. Minha Página</p>
     </footer>
