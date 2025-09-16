@@ -19,16 +19,11 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Base das páginas</title>
   </head>
   <body>
-    <!--
-		Crie uma lista de links semantica no rodapé com redes sociais:
-		No mínimo 5 redes;
-		Crie os links corretamente;
-		Não se es	ueça de utilizar o endereço completo:
-		Ex; <a href="http:site.com.br">site</a>
-	-->
+    
     <header>
       <h1>Versionamento do HTML5 em uma nova BRANCH</h1>
       <nav>
@@ -38,8 +33,9 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
       </nav>
     </header>
 
-    <main>
+    <main title="Texto de exemplo">
       <section>
+        <h2>Introdução ao HTML</h2>
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,6 +49,7 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
         </aside>
       </section>
       <section>
+        <h2>Novidades do HTML</h2>
         <aside>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -65,8 +62,32 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
           </p>
         </aside>
       </section>
+      <h2>Estrutura de listas</h2>
+      <div aria-roledescription="Lista de Produtos">
+      <ul style="list-style: none;">
+        <li>Item 1</li>
+        <li>Item 2
+          <ul style="list-style: none;">
+            <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-1</li>
+            <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-2</li>
+            <li><img src="./assets/img/lista-de-itens.png" alt="Lista de Produtos" width="1%" title="Produtos">sub-item-3</li>
+          </ul>
+        </li>
+        <li>Item 3</li>
+      </ul>
+      </div>
+
     </main>
     <footer>
+      <nav>
+        <ul>
+          <li><a href="https://www.facebook.com">Facebook</a></li>
+          <li><a href="https://www.twitter.com">Twitter</a></li>
+          <li><a href="https://www.instagram.com">Instagram</a></li>
+          <li><a href="https://www.linkedin.com">Linkedin</a></li>
+          <li><a href="https://www.youtube.com">YouTube</a></li>
+        </ul>
+      </nav>
       <p>&copy; Todos os direitos reservados - 2025. Minha Página</p>
     </footer>
   </body>
