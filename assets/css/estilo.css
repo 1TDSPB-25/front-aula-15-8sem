@@ -1,0 +1,61 @@
+/*Comentario em CSS*/
+/*Agrupamento de seletores*/
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: greenyellow;
+    background-color: palevioletred;
+}
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+div > p {
+    color: darkred;
+}
+
+h2 ~ p {
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.link{
+    color: greenyellow;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px;
+    border-top: #1b1616 solid 1px;
+    border-bottom: #1b1616 solid 1px;
+}
+
+.link:hover{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+}
+
+#cabecalho{
+    background-color: lightsalmon;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+body{
+    color: darkmagenta;
+    background-color: palevioletred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 100px;
+}
