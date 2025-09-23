@@ -1,0 +1,60 @@
+.link{
+    display: inline-block;
+    margin: auto;
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link:hover{
+    background-color: #312a2a;
+    padding: 10px;
+    border-top: #fff solid 1px;
+    border-bottom: #fff solid 1px;
+}
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+div > p {
+    color: darkred;
+}
+
+h2 ~ p{
+    color: red;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cabecalho{
+    background-color: #312a2a;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+body{
+    background-color: #312a2a;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    width: 10%;
+}
