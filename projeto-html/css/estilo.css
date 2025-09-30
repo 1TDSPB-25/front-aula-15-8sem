@@ -74,3 +74,18 @@ body{
     color: #0b0505;
     
 }
+
+.galeria{
+    width: 100%;
+    text-align: center;
+}
+.item{
+    display: inline-block;
+    width: 20%;
+    margin: 0 10px;
+}
+
+.item img{
+    width: 100%;
+
+}
