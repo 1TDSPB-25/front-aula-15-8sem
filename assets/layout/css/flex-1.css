@@ -1,0 +1,50 @@
+.box-pai{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    justify-content: space-evenly;
+
+    border: 2px solid #ff0000;
+    width: 100%;
+    height: 200px;
+}
+
+.box{
+    width: 50px;
+    height: 25px;
+}
+
+.child{
+    height: 25px;
+}
+
+.childl{
+    height: 25px;
+    border: 2px solid rgb(36, 27, 173);
+}
+
+.box-child1{
+    height: 25px;
+    border: 2px solid rgb(173, 80, 27);
+}
+
+.box-child2{
+    height: 25px;
+    border: 2px solid rgb(27, 173, 63);
+}
+
+.box-child3{
+    height: 25px;
+    border: 2px solid rgb(173, 27, 100);
+}
+
+.box-child4{
+    height: 25px;
+    border: 2px solid rgb(173, 27, 27);
+}
+
+.box-child5{
+    height: 25px;
+    border: 2px solid rgb(216, 172, 28);
+}
