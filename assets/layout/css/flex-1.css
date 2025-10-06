@@ -1,0 +1,34 @@
+.box-pai{
+    display: flex;
+    /* flex-direction row-reverse; */
+    /* flex-direction column-reverse; */
+    /* gap: 10px; */
+    /* justify-content:flex-end; */
+    flex-direction: row-reverse;
+    gap: 10px;
+
+    border:2px solid #ff0000
+    width: 100%;
+    height: 200px;
+}
+
+.box{
+    width: 50px;
+    height: 25px;;
+}
+
+.child1{
+    border: 2px solid #080870;
+}
+child2{
+    border: 2px solid #0808
+}
+child3{
+    border: 2px solid #500844
+}
+child4{
+    border: 2px solid rgba(236, 240, 4, 0.533)
+}
+child5{
+    border: 2px solid rgba(8, 237, 245, 0.533)
+}
