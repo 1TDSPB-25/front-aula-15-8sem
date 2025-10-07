@@ -46,9 +46,20 @@
      align-content: space-around;
 }
 
-.conteudo :nth-child(2) {
-    width: 20%;
+.conteudo :nth-child(2){
+    width: 100%;
 }
+
+.conteudo :nth-child(2) div{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.conteudo :nth-child(2) img{
+    max-width: 30%;
+}
+
 
 
 
