@@ -3,29 +3,69 @@
 
 .box-pai{
     display: flex;
+<<<<<<< Updated upstream
     /*flex-direction: row-reverse; */
     /*flex-direction: column-reverse;*/
     /*gap: 10px;*/
     /*justify-content: space-between;*/
     /*justify-content: space-evenly;*/
     justify-content: space-around;
+=======
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+    /* gap:10px; */
+    /* justify-content: space-between; */
+       /* justify-content: space-evenly; */
+       flex-wrap: wrap;
+        justify-content: center;
+>>>>>>> Stashed changes
 
     border: 2px solid #ff0000;
     width: 100%;
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    
 }
 .box{
+<<<<<<< Updated upstream
     height: 25px;
 }
 
 .box-child1{
     border: 2px solid #080342;
+=======
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-child1{
+    border: 2px solid #080870;
+   /* flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 250px; */
+    /*flex: 1 2 250px;*/
+    
+>>>>>>> Stashed changes
 }
 .box-child2{
     border: 2px solid blue;
 }
 .box-child3{
+<<<<<<< Updated upstream
     border: 2px solid goldenrod;
+=======
+    border: 2px solid #70084a;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 400px;
+>>>>>>> Stashed changes
 }
 .box-child4{
     border: 2px solid yellowgreen;
