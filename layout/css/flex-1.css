@@ -39,8 +39,16 @@
 
 .conteudo{
      background-color: #0c083a;
+     width: 100%;
+     height: 800px;
+     display: flex;
+     flex-direction: column;
+     align-content: space-around;
 }
 
+.conteudo :nth-child(2) {
+    width: 20%;
+}
 
 
 
