@@ -1,34 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    color:#fff;
+    background-color: #0c083a;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+.logo{
+    max-width: 10%;
+}
+
+.menu{
+    width: 100%;
+}
+
+.menu ul{
+    list-style: none;
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.conteudo{
+     background-color: #0c083a;
+     width: 100%;
+     height: 800px;
+     display: flex;
+     flex-direction: column;
+     align-content: space-around;
+     color:#fff;
+}
+
+.conteudo :nth-child(2){
+    width: 100%;
+}
+
+.conteudo :nth-child(2) div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.conteudo :nth-child(2) div figure{
+    width: 90%;
+}
+
+.conteudo :nth-child(2) img{
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+}
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  
+ 
 .box-pai{
     display: flex;
-    /* flex-direction: column;
-    gap: 10px; */
-    justify-content: space-around;
-
-    border: 2px solid red;
-    width: 100%;
-    height:200px;
+   flex-direction: row-reverse; 
+   flex-direction: column-reverse; 
+   gap:10px; 
+   justify-content: space-between; 
+   justify-content: space-evenly; 
+   flex-wrap: wrap;
+    justify-content: center;
+     align-content: center;
     
+    border:2px solid #ff0000;
+    width: 100%;
+    height: 200px;
 }
-
+ 
 .box{
-    width: 50px;
-    height: 25px;
-}
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
 .box-child1{
-    border: 2px solid turquoise;
-}
+    border: 2px solid #080870; 
+     flex-grow: 1;
+    flex-shrink: 2;
+    flex-basis: 250px; 
+    ShortHand propertie
+     flex:1 2 250px; 
+  }
 .box-child2{
-    border: 2px solid purple;
+    border: 2px solid #2c7008;
 }
 .box-child3{
-    border: 2px solid salmon;
+    border: 2px solid #70084a; 
+  flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 400px;  
 }
 .box-child4{
-    border: 2px solid blueviolet;
+    border: 2px solid #702008;
 }
 .box-child5{
-    border: 2px solid greenyellow;
-}
+    border: 2px solid #706908;
+} 
+
+
+ */
