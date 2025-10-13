@@ -1,3 +1,7 @@
+# Aula dia 10/06/2025 - Iniciando com FlexBox
+- Flex-Itens
+
+
 # Exercício para o dia 22/09/2025
 # Organização de Páginas
 
