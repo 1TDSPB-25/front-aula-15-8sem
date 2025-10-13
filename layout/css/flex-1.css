@@ -5,7 +5,7 @@
 }
 
 html{
-    font-size: 62%
+    font-size: 62%;
     font-family: Verdana, sans-serif;
 }
 
@@ -13,7 +13,6 @@ html{
 .cabecalho{
     font-size: 3rem;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     color:#fff;
@@ -21,6 +20,7 @@ html{
     padding: 10px;
     width: 100%;
     height: 200px;
+    
 }
 
 .logo{
@@ -28,13 +28,12 @@ html{
 }
 
 .menu{
-    width: 100%;
+    width: 100vw;
 }
 
 .menu ul{
     list-style: none;
     width: 100%;
-
     display: flex;
     justify-content: end;
     gap: 30px;
@@ -48,7 +47,7 @@ html{
     font-size: 2rem;
      background-color: #0c083a;
      width: 100%;
-     height: 800px;
+     height: 80vh;
      display: flex;
      flex-direction: column;
      align-content: space-around;
@@ -56,26 +55,31 @@ html{
 }
 
 .conteudo :nth-child(2){
-    width: 100%;
+    width: 90%;
 }
 
 .conteudo :nth-child(2) div{
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap: wrap
 
 }
 
 .conteudo :nth-child(2) div figure{
-    width: 90%;
+    width: 50%;
 }
 
 .conteudo :nth-child(2) img{
-    width: 90%;
+    width: 50%;
     display: inline-block;
     margin: 0 auto;
 }
 
+.conteiner{
+    width: 70%;
+    margin: 0 auto;
+}
 
 
 
