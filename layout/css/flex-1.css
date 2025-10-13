@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size:62%;
+    font-family: Verdana, sans-serif;
+
+}
+
 .cabecalho{
+    font-size: 1rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -38,6 +45,7 @@
 }
 
 .conteudo{
+    font-size: 2rem;
      background-color: #0c083a;
      width: 100%;
      height: 800px;
