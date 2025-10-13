@@ -19,8 +19,8 @@ html{
     color:#fff;
     background-color: #0c083a;
     padding: 10px;
-    width: 100%;
-    height: 200px;
+    width: 100vw;
+    height: 20vh;
 }
 
 .logo{
@@ -28,12 +28,12 @@ html{
 }
 
 .menu{
-    width: 100%;
+    width: 100vw;
 }
 
 .menu ul{
     list-style: none;
-    width: 100%;
+    width: 100vw;
 
     display: flex;
     justify-content: end;
@@ -48,7 +48,7 @@ html{
     font-size: 2rem;
      background-color: #0c083a;
      width: 100%;
-     height: 800px;
+     height: 80vh;
      display: flex;
      flex-direction: column;
      align-content: space-around;
@@ -63,19 +63,27 @@ html{
     display: flex;
     justify-content: center;
     gap: 20px;
-
+    flex-wrap: wrap;
 }
 
 .conteudo :nth-child(2) div figure{
-    width: 90%;
+    width: 50%;
 }
 
 .conteudo :nth-child(2) img{
-    width: 90%;
+    width: 50%;
     display: inline-block;
     margin: 0 auto;
 }
 
+.container{
+    margin:0 auto;
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c083a
+}
 
 
 
