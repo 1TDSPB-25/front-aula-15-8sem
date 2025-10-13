@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 h1,h2,p{
@@ -13,6 +14,8 @@ nav{
     text-align: center;
 }
 
+=======
+>>>>>>> main
 div > p {
     color: darkred;
 }
@@ -20,8 +23,25 @@ div > p {
 h2 ~ p {
     color: red;
 }
+<<<<<<< HEAD
 ul{
     list-style-type: none;
+=======
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+>>>>>>> main
 }
 
 .link{
@@ -34,9 +54,13 @@ ul{
     border-bottom: #1b1616 solid 1px;
 }
 
+<<<<<<< HEAD
 
 .link:hover{
 
+=======
+.link:hover{
+>>>>>>> main
     background-color: #1b1616;
     color: #fff;
     padding: 10px;
@@ -50,6 +74,7 @@ ul{
     padding: 15px;
     margin-bottom: 25px;
     color: #fff;
+<<<<<<< HEAD
 
 }
 body{
@@ -62,4 +87,16 @@ body{
 img{
     width: 10%;
     
+=======
+}
+
+body{
+    background-color: #1d1c1c;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img{
+    width: 10%;
+>>>>>>> main
 }
