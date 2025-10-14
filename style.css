@@ -32,6 +32,10 @@ main {
   padding: 40px;
 }
 
+section h2 {
+  color: orangered;
+}
+
 footer {
   display: flex;
   flex-direction:column;
