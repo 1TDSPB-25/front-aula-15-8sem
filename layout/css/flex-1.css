@@ -4,16 +4,21 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size:62%;
+    font-family: Verdana,sans-serif;
+}
+
+
+
 .cabecalho{
-    display: flex;
-    justify-content: space-around;
+    display:flex;
     align-items: center;
     flex-direction: row;
     color:#fff;
     background-color: #0c083a;
     padding: 10px;
-    width: 100%;
-    height: 200px;
+    height: 20vh;
 }
 
 .logo{
@@ -21,13 +26,12 @@
 }
 
 .menu{
-    width: 100%;
+    width: 100vw;
 }
 
 .menu ul{
     list-style: none;
-    width: 100%;
-
+    width: 100vw;
     display: flex;
     justify-content: end;
     gap: 30px;
@@ -38,9 +42,10 @@
 }
 
 .conteudo{
+    font-size:2rem;
      background-color: #0c083a;
      width: 100%;
-     height: 800px;
+     height: 80vh;
      display: flex;
      flex-direction: column;
      align-content: space-around;
@@ -55,17 +60,31 @@
     display: flex;
     justify-content: center;
     gap: 20px;
+    flex-wrap:wrap;
 
 }
 
 .conteudo :nth-child(2) div figure{
-    width: 90%;
+    width: 50%;
 }
 
 .conteudo :nth-child(2) img{
-    width: 90%;
+    max-width: 50%;
     display: inline-block;
     margin: 0 auto;
+}
+
+.rodape{
+    background-color: #0c083a;
+}
+
+.container{
+    margin:0 auto;
+    width:80vw;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-color: #0c083a;
 }
 
 
