@@ -15,7 +15,6 @@ body{
 }
 
 .logo{
-<<<<<<< HEAD
     max-width: 10%;
 }
 
@@ -99,11 +98,6 @@ body{
 
 .rodape{
     background-color: #0c083a;
-=======
-    max-width: 15%;
-    border: 2px solid;
-    border-radius: 10px;
->>>>>>> origin/main
 }
 
 .container{
