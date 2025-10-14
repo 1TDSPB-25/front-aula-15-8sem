@@ -8,6 +8,7 @@ header {
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 body{
     font-family: 'Courier New', Courier, monospace;
     color: #f68b1e;
@@ -37,4 +38,12 @@ footer {
   align-items: center;
   background: #f68b1e;
   color: #38025c;
+  
+}
+
+footer nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
