@@ -16,6 +16,8 @@ body{
 
 .logo{
     max-width: 15%;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
 .container{
@@ -37,6 +39,7 @@ body{
     align-items: center;
     padding: 2%;
     margin-bottom: 5%;
+    border: 2px solid;
 }
 
 .menu ul{
@@ -78,6 +81,12 @@ body{
     flex-direction: column;
 }
 
+.rodape{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: flex-end;
+}
 
 
 
