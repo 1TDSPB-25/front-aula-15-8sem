@@ -5,23 +5,17 @@
 }
 
 html{
-    font-size:62%;
+    font-size:62.5%;/*Tendo como base 16px o valor é 10px*/
     font-family: Verdana,sans-serif;
 }
 
-
-
-.cabecalho{
-    display:flex;
-    align-items: center;
-    flex-direction: row;
-    color:#fff;
-    background-color: #0c083a;
-    padding: 10px;
-    height: 20vh;
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
 .logo{
+<<<<<<< HEAD
     max-width: 10%;
 }
 
@@ -87,20 +81,21 @@ html{
 
 .rodape{
     background-color: #0c083a;
+=======
+    max-width: 15%;
+>>>>>>> origin/pf0670
 }
 
 .container{
+    width: 90%;
+    height: 100%;
+    background: #070834;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
     margin:0 auto;
-    width:80vw;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    background-color: #0c083a;
 }
-
-
-
-
 
 
 
