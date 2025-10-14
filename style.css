@@ -11,9 +11,11 @@ header {
 body{
     font-family: 'Courier New', Courier, monospace;
     color: #f68b1e;
-  background: #38025c;
-
+    background: #38025c;
+    display: flex;
+    flex-direction: column;
 }
 html{
     color: #f68b1e;
 }
+
