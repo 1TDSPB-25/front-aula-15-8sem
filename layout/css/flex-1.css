@@ -25,6 +25,17 @@ html{
     max-width: 10%;
 }
 
+.container{
+    width: 90%;
+    height: 100%;
+    background: #070834;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 auto;
+}
+
 .menu{
     width: 100vw;
 }
