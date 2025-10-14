@@ -5,91 +5,29 @@
 }
 
 html{
-    font-size:62%;
+    font-size:62.5%;/*Tendo como base 16px o valor é 10px*/
     font-family: Verdana,sans-serif;
 }
 
-
-
-.cabecalho{
-    display:flex;
-    align-items: center;
-    flex-direction: row;
-    color:#fff;
-    background-color: #0c083a;
-    padding: 10px;
-    height: 20vh;
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
 .logo{
-    max-width: 10%;
-}
-
-.menu{
-    width: 100vw;
-}
-
-.menu ul{
-    list-style: none;
-    width: 100vw;
-    display: flex;
-    justify-content: end;
-    gap: 30px;
-}
-
-.menu ul li{
-    display: inline;
-}
-
-.conteudo{
-    font-size:2rem;
-     background-color: #0c083a;
-     width: 100%;
-     height: 80vh;
-     display: flex;
-     flex-direction: column;
-     align-content: space-around;
-     color:#fff;
-}
-
-.conteudo :nth-child(2){
-    width: 100%;
-}
-
-.conteudo :nth-child(2) div{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap:wrap;
-
-}
-
-.conteudo :nth-child(2) div figure{
-    width: 50%;
-}
-
-.conteudo :nth-child(2) img{
-    max-width: 50%;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.rodape{
-    background-color: #0c083a;
+    max-width: 15%;
 }
 
 .container{
+    width: 90%;
+    height: 100%;
+    background: #070834;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
     margin:0 auto;
-    width:80vw;
-    height:100vh;
-    display:flex;
-    flex-direction:column;
-    background-color: #0c083a;
 }
-
-
-
-
 
 
 
