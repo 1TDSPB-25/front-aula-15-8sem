@@ -1,21 +1,11 @@
-# Front-End-Design-Engineering / FIAP
-```
-- Repositório inicial
-- Iniciando com comandos básicos
--- git init
--- git commit
--- git config
--- git add
--- git dif
--- git log
--- git show
--- git branch
--- git push
-```
-## Partindo para um conteúdo mais avançado:
-- Manipulando branchs
-```
--- git checkout -b
--- git merge
+### Exercicios 14/10/2025
 
-```
+## Estilizar a página index com Flex-BOx
+> Layout básico Flex
+- Utilize CSS externo.
+- Obrigatório FLEX BOX
+- Pode adiconar imagens.
+- Obrigatório a realização de commits [Mín=15]
+- A entrega é feita aqui no repositório mesmo.
+- Pode consultar IA, mas não copiar 100%
+- Utilizar menus diferenciados será um diferencial e ponto extra.
