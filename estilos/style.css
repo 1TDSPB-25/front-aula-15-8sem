@@ -18,3 +18,33 @@ body {
   color: var(--texto);
   line-height: 1.6;
 }
+
+header {
+  background-color: var(--cinza-medio);
+  text-align: center;
+  padding: 25px 15px;
+  border-bottom: 3px solid var(--cinza-escuro);
+}
+ 
+header h1 {
+  font-size: 1.8em;
+  color: var(--cinza-escuro);
+  margin-bottom: 15px;
+}
+ 
+header nav {
+  margin-top: 5px;
+}
+ 
+header nav a {
+  text-decoration: none;
+  color: var(--cinza-escuro);
+  font-weight: bold;
+  margin: 0 10px;
+  transition: 0.2s;
+}
+ 
+header nav a:hover {
+  color: black;
+  text-decoration: underline;
+}
