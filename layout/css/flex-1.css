@@ -4,81 +4,92 @@
     box-sizing: border-box;
 }
 
-.cabecalho{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    color:#fff;
-    background-color: #0c083a;
-    padding: 10px;
-    width: 100%;
-    height: 200px;
+html{
+    font-size:62.5%;/*Tendo como base 16px o valor é 10px*/
+    font-family: Verdana,sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
 }
 
 .logo{
-    max-width: 10%;
+    max-width: 15%;
+    border: 2px solid;
+    border-radius: 10px;
 }
 
-.menu{
+.container{
+    width: 90%;
+    background: #070834;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    margin:0 auto;
+    color: #fff;
+}
+
+.cabecalho{
     width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 5%;
+    border: 2px solid;
 }
 
 .menu ul{
-    list-style: none;
     width: 100%;
-
     display: flex;
-    justify-content: end;
-    gap: 30px;
+    list-style: none;
+    gap:20px;
+    font-size: 3rem;
 }
 
-.menu ul li{
-    display: inline;
+.conteudo section div figure img{
+    max-width: 50%;
 }
+
 
 .conteudo{
-     background-color: #0c083a;
-     width: 100%;
-     height: 800px;
-     display: flex;
-     flex-direction: column;
-     align-content: space-around;
-     color:#fff;
-}
-
-.conteudo :nth-child(2){
     width: 100%;
+    height: 70%;
+    font-size: 3rem;
+    padding: 2%;
 }
 
-.conteudo :nth-child(2) div{
+.conteudo section{
     display: flex;
-    justify-content: center;
-    gap: 20px;
-
+    flex-direction: column;
+    gap:10px;
+    margin-bottom: 2%;
 }
 
-.conteudo :nth-child(2) div figure{
-    width: 90%;
+.conteudo section div{
+    display: flex;
+    gap:5px;
 }
 
-.conteudo :nth-child(2) img{
-    width: 90%;
+.conteudo section div figure{
     display: inline-block;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+.rodape{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    align-items: flex-end;
+}
 
 
 
