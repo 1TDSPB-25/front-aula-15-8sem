@@ -5,3 +5,16 @@
   --texto: #222222;
   --borda: #bbbbbb;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #fff;
+  color: var(--texto);
+  line-height: 1.6;
+}
