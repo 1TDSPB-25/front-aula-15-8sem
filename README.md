@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Aula dia 10/06/2025 - Iniciando com FlexBox
 - Flex-Itens
 
@@ -296,3 +297,16 @@ button.secondary { background: #efefef; }
 ## Arquivos deste pacote
 - `wireframe-login-cinza.png` — imagem do wireframe em escala de cinza.
 - `README.md` — este README com instruções do exercício.
+=======
+### Exercício 14/10/2025
+
+## Estilizar a página index com Flex-BOX
+> Layout básico em Flex
+- Utilize CSS externo.
+- Obrigatório FLEX BOX.
+- Pode adicionar imagens.
+- Obrigatório a realização de commits.[Mín=15]
+- A entrega é feita aqui no repositório mesmo.
+- Pode consultar IA, mas não copiar 100%.
+- Utilizar menus diferenciados será um diferencial e ponto extra.
+>>>>>>> main
