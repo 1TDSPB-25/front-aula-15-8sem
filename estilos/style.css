@@ -77,3 +77,47 @@ section p {
 aside {
   margin-top: 10px;
 }
+
+a {
+  color: var(--cinza-escuro);
+}
+ 
+a:hover {
+  color: black;
+}
+ 
+footer {
+  background-color: var(--cinza-medio);
+  color: var(--cinza-escuro);
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid var(--cinza-escuro);
+  margin-top: 40px;
+}
+ 
+footer ul {
+  list-style: none;
+  margin-bottom: 10px;
+}
+ 
+footer li {
+  display: inline-block;
+  margin: 0 8px;
+}
+ 
+footer a {
+  color: var(--cinza-escuro);
+  text-decoration: none;
+  font-weight: 500;
+}
+ 
+footer a:hover {
+  text-decoration: underline;
+  color: black;
+}
+ 
+footer p {
+  font-size: 0.9em;
+  color: var(--cinza-escuro);
+}
+ 
