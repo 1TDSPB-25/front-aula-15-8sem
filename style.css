@@ -20,6 +20,10 @@ nav ul {
   align-items: center;
 }
 
+nav img {
+  width: 80px;
+}
+
 .container-links {
   display: flex;
   gap: 1.5rem;
