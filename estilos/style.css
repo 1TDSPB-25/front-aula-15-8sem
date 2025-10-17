@@ -108,10 +108,12 @@ footer nav ul li a {
     background-color: #0668fa;
     padding: 6px 12px;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 footer nav ul li a:hover {
     background-color: #021b3b;
+    transform: scale(1.0);
 }
 
 
