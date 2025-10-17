@@ -80,3 +80,86 @@ nav img {
 .card-info li strong {
   color: #ffffff;
 }
+
+
+#noticias {
+  padding: 3rem;
+  text-align: center;
+}
+
+#noticias h2 {
+  color: white;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+
+.container-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.card-noticia {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.card-noticia:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-noticia h3 {
+  color: #a5acaf;
+  font-size: 1.25rem;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.tag-data {
+  font-size: 0.8rem;
+  color: #888;
+  background-color: #2a2a2a;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.card-noticia p {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-card {
+  display: inline-block;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #cc0000;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-card:hover {
+  background-color: #aa0000;
+}
