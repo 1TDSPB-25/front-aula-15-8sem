@@ -163,3 +163,102 @@ nav img {
 .cta-card:hover {
   background-color: #aa0000;
 }
+
+#carreiras-vagas {
+  padding: 3rem;
+  text-align: center;
+  background-color: #0c0c0c;
+}
+
+#carreiras-vagas h2 {
+  color: white;
+  margin-bottom: 2.5rem;
+  font-size: 2.2rem;
+  border-bottom: 2px solid #a5acaf;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.container-vagas {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-vaga {
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-left: 5px solid #a5acaf;
+  border-radius: 8px;
+  padding: 1.5rem;
+  max-width: 400px;
+  flex: 1 1 300px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.card-vaga:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.vaga-header {
+  margin-bottom: 1rem;
+}
+
+.card-vaga h3 {
+  color: white;
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.vaga-local {
+  font-size: 0.9rem;
+  color: #cc0000;
+  font-weight: bold;
+  display: block;
+}
+
+.vaga-descricao {
+  color: #ccc;
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.vaga-info-detalhe {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  border-top: 1px dashed #333;
+  padding-top: 1rem;
+}
+
+.vaga-info-detalhe li {
+  color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.vaga-info-detalhe li strong {
+  color: #a5acaf;
+  margin-right: 0.5rem;
+}
+
+.cta-vaga {
+  display: block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  background-color: #a5acaf;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+
+.cta-vaga:hover {
+  background-color: #ffffff;
+  color: black;
+}
