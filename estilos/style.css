@@ -110,6 +110,10 @@ footer nav ul li a {
     border-radius: 5px;
 }
 
+footer nav ul li a:hover {
+    background-color: #021b3b;
+}
+
 
 
 
