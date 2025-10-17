@@ -45,3 +45,26 @@ header h1 {
     font-size: 32px;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.274);
+  padding: 20px;
+}
+
+section h2 {
+  color: #0651b4;
+  margin-bottom: 10px;
+}
+
+
+
