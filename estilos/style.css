@@ -73,5 +73,17 @@ aside {
     border-radius: 5px;
 }
 
+section a {
+  display: inline-block;
+  margin-top: 8px;
+  color: #004aad;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
 
 
