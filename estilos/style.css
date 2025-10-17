@@ -10,3 +10,18 @@ body {
   color: #222;
   line-height: 1.6;
 }
+
+header {
+  background-color: #054ead;
+  color: white;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
