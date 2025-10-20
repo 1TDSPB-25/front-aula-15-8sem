@@ -10,7 +10,7 @@
    display: grid;
 
     grid-template-columns: 1fr;
-    column-gap: 20px;
+    column-gap: 5px;
 
     grid-template-rows: 150px;
     align-items: center;
@@ -21,10 +21,20 @@
 
 }
 
+body{
+    width: 100vw;
+    height: 100vh;  
+}
+
 .container > :nth-child(1n){
     align-self: center;
     background-color: #775151;
     color: aliceblue;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
 }
 
 .container > :nth-child(1n+2){
