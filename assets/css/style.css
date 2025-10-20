@@ -5,7 +5,7 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
-
+ 
 body {
   background-color: #f5f5f5;
   color: #222;
@@ -13,42 +13,42 @@ body {
   flex-direction: column;
   min-height: 100vh;
 }
-
+ 
 /* ===== HEADER ===== */
 header {
-  background-color: #004aad;
+  background-color: #006540;
   color: #fff;
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
+ 
 header h1 {
   margin-bottom: 10px;
   text-align: center;
 }
-
+ 
 header nav {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
 }
-
+ 
 header nav a {
   color: white;
   text-decoration: none;
   padding: 8px 14px;
   border-radius: 6px;
-  background-color: #0066ff;
+  background-color: #135213;
   transition: 0.3s;
 }
-
+ 
 header nav a:hover {
-  background-color: #003580;
+  background-color: #295e29;
 }
-
+ 
 /* ===== MAIN ===== */
 main {
   flex: 1;
@@ -58,7 +58,7 @@ main {
   padding: 30px 10%;
   gap: 40px;
 }
-
+ 
 section {
   background: white;
   padding: 20px;
@@ -69,30 +69,30 @@ section {
   flex-direction: column;
   gap: 15px;
 }
-
+ 
 section h2 {
-  color: #004aad;
-  border-bottom: 2px solid #004aad;
+  color: #375538;
+  border-bottom: 2px solid #375538;
   padding-bottom: 5px;
 }
-
+ 
 section aside {
   display: flex;
   flex-direction: column;
   gap: 10px;
   text-align: justify;
 }
-
+ 
 section a {
   align-self: flex-end;
-  color: #004aad;
+  color: #375538;
   text-decoration: none;
   font-weight: bold;
 }
-
+ 
 /* ===== FOOTER ===== */
 footer {
-  background-color: #004aad;
+  background-color: #375538;
   color: #fff;
   padding: 20px;
   display: flex;
@@ -100,7 +100,7 @@ footer {
   align-items: center;
   gap: 15px;
 }
-
+ 
 footer nav ul {
   list-style: none;
   display: flex;
@@ -108,16 +108,17 @@ footer nav ul {
   justify-content: center;
   gap: 15px;
 }
-
+ 
 footer nav ul li a {
   color: white;
   text-decoration: none;
   padding: 6px 10px;
   border-radius: 5px;
-  background-color: #0066ff;
+  background-color: #356136;
   transition: 0.3s;
 }
-
+ 
 footer nav ul li a:hover {
-  background-color: #003580;
+  background-color: rgb(9, 56, 19);
 }
+ 
