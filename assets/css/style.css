@@ -6,9 +6,53 @@
 
 }
 
-header{
-  width: 500px;
-  height: 300px;
-  padding: 10px;
+body{
+  width: 100vw;
+  height: 100vh;
+}
 
+.container{
+  display: grid;
+  /*Modelo de criação das colunas*/
+  grid-template-columns: 1fr ;
+  /*grid-template-columns: minmax(300px,60%) repeat(3, 300px);*/
+  column-gap: 5px;
+  /*Modelo de criaçao das linhas*/
+  grid-template-rows: 1fr 2fr 1fr;
+
+  align-items: center;
+  justify-items: center;
+
+}
+
+.container > :nth-child(1){
+  align-self: center;
+  background-color: #9e2323;
+  color: #fff;
+
+  grid-column: 1/2;
+  grid-row: 1/2;
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.container > :nth-child(2n){
+  align-self: center;
+  background-color: #2a21a8;
+  color: #fff;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.container > :nth-child(3n){
+  align-self: center;
+  background-color: #21a869;
+  color: #fff;
+  grid-column: 1/2;
+  grid-row: 3/3;
+  
 }
