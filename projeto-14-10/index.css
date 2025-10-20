@@ -82,3 +82,8 @@ footer nav a {
      display: block; 
      margin: 10px auto; 
 }
+section img { 
+    flex: 1; 
+    max-width: 300px; 
+    border-radius: 15px; 
+}
