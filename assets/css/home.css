@@ -29,6 +29,11 @@ header {
         text-decoration: none;
         color: white;
     }
+
+    a:hover {
+        color: rgb(255, 217, 0);
+        text-decoration: underline;
+    }
 }
 
 main {
