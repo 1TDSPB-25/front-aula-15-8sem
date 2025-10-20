@@ -1,0 +1,139 @@
+:root {
+  --bg-color: #fafafa;
+  --text-primary: #111;
+  --text-secondary: #333;
+  --text-tertiary: #444;
+  --font-sans: Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  margin: 40px;
+  background: var(--bg-color);
+  color: var(--text-primary);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+ul li {
+  color: var(--text-tertiary);
+}
+
+header {
+  padding: 20px 0;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.link,
+header nav a {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav a:hover,
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg-color);
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: var(--text-tertiary);
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  color: var(--text-tertiary);
+}
+
+@media (max-width: 1000px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+
+  header,
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header nav a {
+    font-size: 12px;
+  }
+
+  footer {
+    margin-top: 40px;
+    position: static;
+  }
+
+  footer nav ul {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+

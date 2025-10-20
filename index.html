@@ -1,70 +1,63 @@
-<!DOCTYPE html>
-<!--
-
-DTD = Document Type Definition
-
-O DOCTYPE, ou Declaração de Tipo de Documento, é uma instrução no início de um documento HTML que informa ao navegador a versão do HTML a ser utilizada, garantindo que a página seja renderizada no modo padrão (Standards mode), seguindo as especificações web em vez do antigo e inconsistente modo "quirks". A declaração mais comum é <!DOCTYPE html>, específica para o HTML5, e ela deve ser a primeira linha do código, antes de qualquer outra tag. 
-Função Principal do DOCTYPE:
-
-    Ativar o Modo Padrão:
-    O principal objetivo do DOCTYPE é ativar o modo de renderização padrão do navegador. Isso significa que o navegador se esforça para seguir as especificações do HTML e CSS de forma consistente. 
-
-Evitar o Modo "Quirks":
-Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mode" (modo de peculiaridades). Nesse modo, o navegador tenta emular como navegadores antigos renderizariam a página, o que pode levar a inconsistências visuais e comportamentais. 
-
--->
-
 <!-- HTML quer dizer Hyper Text Markup Language -->
-
+<!doctype html>
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Base das páginas</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
   </head>
   <body>
-    <!--
-		Crie uma lista de links semantica no rodapé com redes sociais:
-		No mínimo 5 redes;
-		Crie os links corretamente;
-		Não se es	ueça de utilizar o endereço completo:
-		Ex; <a href="http:site.com.br">site</a>
-	-->
     <header>
-      <h1>Versionamento do HTML5 em uma nova BRANCH</h1>
+      <h1>Home Page</h1>
       <nav>
-        <a href="./ajuda.html">Ajuda</a> | <a href="./sobre.html">Sobre</a> |
-        <a href="./minha-primeira-pagina.html">Minha Página</a> |
-        <a href="./produtos/produtos.html">Produtos</a>
+        <a href="./assets/page/ajuda.html">Ajuda</a>
+        <a href="./assets/page/sobre.html">Sobre</a>
+        <a href="./assets/page/minha-primeira-pagina.html">Minha Página</a>
+        <a href="./assets/page/produtos/produtos.html">Produtos</a>
+        <a href="./assets/page/missao.html">Missão</a>
       </nav>
     </header>
 
+<<<<<<< HEAD
     <main title="Lista de Exemplo">
+=======
+    <div class="columns">
+>>>>>>> origin/rm566719
       <section>
-        <aside>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </aside>
+        <h2>Introdução ao HTML5</h2>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+          reiciendis architecto repudiandae deleniti et aliquam amet ex ipsum
+          ad, minima nemo veritatis quia voluptatibus. Dolorum consequuntur
+          atque quas possimus, dolores in ex temporibus molestias blanditiis
+          corrupti voluptate libero adipisci ea inventore qui enim aliquid
+          repellendus ducimus omnis hic ad consequatur labore tenetur. Voluptate
+          accusantium ex dolore cum accusamus tempora voluptas, libero alias
+          inventore a atque in excepturi ratione pariatur quam consequatur
+          quisquam molestias aliquam maxime asperiores aliquid cupiditate.
+          Veniam aliquid eaque fuga, error excepturi consequuntur maiores
+          reprehenderit aperiam quidem quae, dolores exercitationem placeat
+          molestias pariatur sit odio vitae qui consectetur?
+        </p>
       </section>
       <section>
-        <aside>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </aside>
+        <h2>Novidades do HTML5</h2>
+        <hr />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        </p>
+        <p>
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </section>
+<<<<<<< HEAD
   
       <section>
         <h2>Nossa missão</h2>
@@ -83,8 +76,41 @@ Quando um DOCTYPE está ausente ou é inválido, o navegador entra em "quirks mo
 				    <li><a href="https://www.linkedin.com/in/murilo-marques-64603a1b9//"target="_blank">Linkedin</a> </li>
 				    <li><a href="https://github.com/Mumarkzx/"target="_blank">Github</a> </li>
 			    </ul>
+=======
+      <section>
+        <h2>Nossa missão</h2>
+        <hr />
+        <p>
+          Como o resto do projeto tem uma base de HTML5 básica, vamos seguir com
+          um design minimalista-brutalista. Você pode ver mais sobre esse tipo
+          de design na nossa página de missão.
+        </p>
+        <a class="link" href="./assets/page/missao.html"
+          >Quer saber mais? Clique aqui</a
+        >
+      </section>
+    </div>
+
+    <footer>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+          </li>
+          <li><a href="https://google.com" target="_blank">google</a></li>
+          <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+          <li>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+          </li>
+          <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+>>>>>>> origin/rm566719
       </nav>
       <p>&copy; Todos os direitos reservados - 2025. Minha Página</p>
     </footer>
   </body>
 </html>
+
