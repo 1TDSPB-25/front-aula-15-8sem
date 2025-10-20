@@ -87,4 +87,9 @@ footer {
         font-weight: bold;
         text-decoration: none;
     }
+
+    a:hover {
+        color: coral;
+        text-decoration: underline;
+    }
 }
