@@ -44,3 +44,12 @@ section{
     padding: 1rem;
     width: 70%;
 }
+
+h2 {
+    color: #94005b;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.4;
+}
