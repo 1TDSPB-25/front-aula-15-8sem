@@ -2,11 +2,33 @@
  margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
-header{
-    width: 500px;
-    height: 300px;  
-    padding: 10px;
+
+.container{
+   display: grid;
+
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+
+    grid-template-rows: 150px;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.container > :nth-child(1n){
+    align-self: center;
+    background-color: #775151;
+    color: aliceblue;
+}
+
+.container > :nth-child(1n+2){
+    align-self: center;
+     background-color: #6d2525;
+    color: aliceblue;
 }
