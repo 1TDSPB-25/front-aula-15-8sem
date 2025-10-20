@@ -124,9 +124,9 @@ a {
     text-decoration: none;
     font-weight: bold;
     border-radius: 20px;
-    transition: background-color 0.3s ease;
 }
 
 .cta-botao:hover {
+    transition: 0.5s ease;
     background-color: #D35400; 
 }
