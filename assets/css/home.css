@@ -81,4 +81,10 @@ footer {
         padding-inline: 5rem;
         justify-content: space-around;
     }
+
+    a {
+        color: red;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
