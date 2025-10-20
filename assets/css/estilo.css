@@ -32,3 +32,9 @@
      background-color: #6d2525;
     color: aliceblue;
 }
+
+.container > :nth-child(3n){
+    align-items: center;
+     background-color: #4d0101;
+    color: aliceblue;
+}
