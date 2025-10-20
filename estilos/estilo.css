@@ -63,3 +63,28 @@ section:nth-of-type(2) aside {
 section:nth-of-type(2) aside p {
     width: 45%;
 }
+
+footer {
+    background-color: #ffb6d8;
+    color: rgb(158, 0, 61);
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+}
+
+footer li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: rgb(255, 0, 98);
+}
