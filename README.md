@@ -1,6 +1,6 @@
 ### Exercicios 14/10/2025
 
-## Estilizar a página index com Flex-BOx
+## Estilizar a página index com Flex-BOX
 > Layout básico Flex
 - Utilize CSS externo.
 - Obrigatório FLEX BOX
