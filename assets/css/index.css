@@ -32,6 +32,12 @@ nav a{
     padding: 5px 10px;
 }
 
+nav a:hover {
+    color: #BF3939;
+    background-color: white;
+    border-radius: 4px;
+}
+
 main{
     flex-grow: 1;
     display: flex;
@@ -75,6 +81,10 @@ footer ul{
 footer li a{
     color: white;
     text-decoration: none;
+}
+
+footer li a:hover {
+    color: #BF3939;
 }
 
 h1, h2 {
