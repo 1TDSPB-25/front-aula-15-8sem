@@ -46,7 +46,7 @@ section{
 }
 
 h2 {
-    color: #94005b;
+    color: #d80085;
     margin-bottom: 10px;
 }
 
@@ -64,9 +64,13 @@ section:nth-of-type(2) aside p {
     width: 45%;
 }
 
+.link-mais {
+    color: rgb(230, 41, 120);
+}
+
 footer {
-    background-color: #ffb6d8;
-    color: rgb(158, 0, 61);
+    background-color: #ff6db1;
+    color: rgb(223, 0, 85);
     padding: 20px;
     text-align: center;
 }
