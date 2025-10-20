@@ -75,3 +75,11 @@ footer li a{
     color: white;
     text-decoration: none;
 }
+
+h1, h2 {
+    color: #BF3939;
+}
+
+header h1 {
+    color: white;
+}
