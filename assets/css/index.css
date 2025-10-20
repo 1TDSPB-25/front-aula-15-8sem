@@ -9,6 +9,7 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #BFBDBE;
+    color: #736666
 }
 header{
     display: flex;
