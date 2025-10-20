@@ -1,0 +1,114 @@
+* {
+   margin: 0;
+   padding:0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.5;
+   color: #222;
+   background-color: rgb(226, 232, 241);
+}
+
+.topo {
+   background-color:rgb(235, 71, 11);
+   color: #fff;
+   padding: 1rem 2rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+
+.topo h1 {
+   font-size: 2rem;
+   text-align: center;
+}
+
+.topo img{
+   width: 100px;
+   height: 100px;
+}
+.menu {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
+}
+
+ .menu a {
+   color: white;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14px;
+   padding: 0.4rem 0.8rem;
+   background: rgba(7, 6, 6, 0.15);
+   border-radius: 6px;
+   border: 2px #be9a79 solid;
+   transition: 0.3s;
+}
+
+.menu a:hover {
+   background:rgb(219, 110, 46);
+   color: bisque;
+}
+
+.conteudo {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   padding: 2rem;
+   max-width: 900px;
+   margin: 0%;
+}
+
+.secao{
+   background: white;
+   padding: 1.5rem;
+   border-radius: 10px;
+
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+
+.texto {
+   text-align: justify;  
+}
+
+.rodape {
+   background-color:rgb(235, 71, 11);
+   color: white;
+   padding: 1.5rem;
+   margin-top: 3rem;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 1rem;
+}
+
+.social ul {
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 1rem;
+   padding: 0;
+}
+
+.social a {
+   color: white;
+   text-decoration: none;
+   font-weight: bold;  
+}
+.social a:hover{
+   color: #be9a79;
+}
+
+
+
+
+
