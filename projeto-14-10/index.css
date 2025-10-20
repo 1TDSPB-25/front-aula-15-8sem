@@ -67,5 +67,7 @@ footer nav a {
     color : white; 
     text-decoration: none; 
 }
-
+.logo { 
+    max-width: 200px; 
+}
 
