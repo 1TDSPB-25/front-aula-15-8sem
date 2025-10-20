@@ -17,3 +17,11 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-grow: 1;
+    padding: 20px;
+}
