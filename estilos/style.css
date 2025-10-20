@@ -6,13 +6,13 @@
 }
 
 body {
-    background-color: #f5f7fa;
-    color: #222;
+    background-color: #fff4e6; 
+    color: #4a2c2a; 
     line-height: 1.6;
 }
 
 header {
-    background-color: #054ead;
+    background-color: #d35400; 
     color: white;
     padding: 20px;
 }
@@ -30,14 +30,14 @@ header nav a {
     text-decoration: none;
     font-weight: bolder;
     font-size: 14px;
-    background-color: #0066ff;
+    background-color: #e67e22; 
     padding: 6px 20px;
     border-radius: 6px;
     transition: 0.3s;
 }
 
 header nav a:hover {
-    background-color: #0b499b;
+    background-color: #a84300; 
     transform: scale(1.0);
 }
 
@@ -55,21 +55,15 @@ main {
     margin: auto;
 }
 
-section {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.274);
-    padding: 20px;
-}
-
 section h2 {
-    color: #0651b4;
+    color: #b03a2e; 
     margin-bottom: 10px;
+    text-align: center;
 }
 
 aside {
     margin-top: 10px;
-    background-color: #f3efef;
+    background-color: #f9e5d8; 
     padding: 10px;
     border-radius: 5px;
 }
@@ -77,7 +71,7 @@ aside {
 section a {
     display: inline-block;
     margin-top: 8px;
-    color: #004aad;
+    color: #922b21; 
     font-weight: bolder;
     text-decoration: none;
 }
@@ -87,7 +81,7 @@ section a:hover {
 }
 
 footer {
-    background-color: #004aad;
+    background-color: #922b21; 
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -106,19 +100,13 @@ footer nav ul {
 footer nav ul li a {
     color: #fff;
     text-decoration: none;
-    background-color: #0668fa;
+    background-color: #ba4a00; 
     padding: 6px 12px;
     border-radius: 5px;
     transition: 0.5s;
 }
 
 footer nav ul li a:hover {
-    background-color: #021b3b;
+    background-color: #5c1f00; 
     transform: scale(1.0);
 }
-
-
-
-
-
-
