@@ -53,3 +53,13 @@ h2 {
 p {
     line-height: 1.4;
 }
+
+section:nth-of-type(2) aside {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+section:nth-of-type(2) aside p {
+    width: 45%;
+}
