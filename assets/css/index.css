@@ -41,8 +41,15 @@ main {
     gap: 40px;
 }
 
-main > section {
+.colunas {
+    display: flex;
+    gap: 40px;
+}
+
+.colunas .coluna {
+    flex: 1;
     line-height: 1.6;
+    text-align: justify;
 }
 
 
