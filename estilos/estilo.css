@@ -88,3 +88,9 @@ footer li a {
 footer li a:hover {
     color: rgb(255, 0, 98);
 }
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
