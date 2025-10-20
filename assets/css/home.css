@@ -21,6 +21,11 @@ header {
 
     color: white;
 
+    img {
+        width: 150px;
+        padding-block: 2rem;
+    }
+
     h1 {
         text-align: center;
     }
