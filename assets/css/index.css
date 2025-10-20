@@ -15,7 +15,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    background-color: #BF3939;
+    background-color: #592222;
     color: white;
     padding: 0 20px;
 }
@@ -57,7 +57,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #BF3939;
+    background-color: #592222;
     color: white;
     padding: 15px 50px;
     text-align: center;
