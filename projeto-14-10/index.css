@@ -87,11 +87,7 @@ section img {
     max-width: 300px; 
     border-radius: 15px; 
 }
-
 .logo-footer {
-  position: absolute;
-  right: 20px; 
-  bottom: 20px;  
-  max-width: 120px;
+     max-width: 120px;
   border-radius: 8px;
 }
