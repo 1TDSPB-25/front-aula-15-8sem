@@ -4,8 +4,41 @@
     box-sizing: border-box;
 }
 
-header {
-    width: 500px;
-    height: 300px;
-    padding: 10px;
+.container {
+    display: grid;
+
+    /* Criação das Colunas */
+    /*grid-template-columns: minmax(300px, 60%) repeat(3, 300px);*/
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+
+    /* Criação das Linhas */
+    grid-template-rows: 300px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.container > :nth-child(1){
+    align-self: center;
+    background-color: #2e2b2b;
+    color: white;
+}
+
+.container > :nth-child(1n+2){
+    align-self: center;
+    background-color: #2e2b2b;
+    color: white;
+}
+
+.container > :nth-child(2){
+    align-self: center;
+    background-color: #2e2b2b;
+    color: white;
+}
+
+.container > :nth-child(3){
+    align-self: center;
+    background-color: #2e2b2b;
+    color: white;
 }
