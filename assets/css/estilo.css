@@ -17,3 +17,9 @@
     background-color: #2e2b2b;
     color: #fff
 }
+
+.container > :nth-child(1n+1){
+    align-self: center;
+    background-color: #2e2b2b;
+    color: #fff
+}
