@@ -70,4 +70,4 @@ footer nav a {
 .logo { 
     max-width: 200px; 
 }
-
+.imagem-conteudo { max-width: 20%; border-radius: 5px; display: block; margin: 10px auto; }
