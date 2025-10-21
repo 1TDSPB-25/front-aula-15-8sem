@@ -64,3 +64,24 @@ nav ul {
     background-color: #00ff88;
     color: #111;
 }
+
+/* Commit 8: Flexbox aplicado no conteúdo principal */
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: left;
+}
+
+/* Commit 7: Estrutura das seções principais */
+.conteudo {
+    flex: 1 1 45%;
+    max-width: 500px;
+}
+
+.imagem {
+    flex: 1 1 40%;
+    text-align: center;
+}
