@@ -1,42 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Skolterapia</title>
-  <link rel="stylesheet" href="css/estilo1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox Layout - Exercício</title>
+    <!-- Commit 2: Conectando o CSS externo -->
+    <link rel="stylesheet" href="estilo1.css">
 </head>
 <body>
-  <header id="cabecalho"><h1>Skolterapia</h1></header>
+    <!-- Commit 1: Estrutura básica criada -->
+    <header id="cabecalho">
+        <!-- Commit 3: Adicionado título e slogan -->
+        <h1>Skolterapia 🍻</h1>
+        <p>Relaxe, divirta-se e aprenda com Flexbox!</p>
+    </header>
 
-  <nav aria-label="Menu principal">
-    <ul class="menu">
-      <li><a class="link" href="#">Início</a></li>
-      <li><a class="link" href="#">Sobre</a></li>
-      <li><a class="link" href="#">Produtos</a></li>
-      <li><a class="link" href="#">Contato</a></li>
-    </ul>
-  </nav>
+    <!-- Commit 4: Criação do menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="#" class="link">Início</a></li>
+            <li><a href="#" class="link">Sobre</a></li>
+            <li><a href="#" class="link">Galeria</a></li>
+            <li><a href="#" class="link">Contato</a></li>
+        </ul>
+    </nav>
 
-  <main class="container">
-    <section class="conteudo">
-      <h2>Nossa Adega</h2>
-      <p>Bem-vindo à seleção Skolterapia — rótulos escolhidos com carinho.</p>
-      <img src="assets/adega.jpg" alt="Prateleira de garrafas da adega">
-    </section>
-
-    <aside class="lateral" aria-labelledby="destaques-title">
-      <h3 id="destaques-title">Destaques</h3>
-      <ul>
-        <li>Vinhos importados</li>
-        <li>Cervejas artesanais</li>
-        <li>Destilados premium</li>
-      </ul>
-    </aside>
-  </main>
-
-  <footer>
-    <p>© 2025 Skolterapia</p>
-  </footer>
-</body>
-</html>
+    <!-- Commit 7: Estrutura principal com duas seções -->
+    <main>
+        <section class="conteudo">
+            <h2>Bem-vindo à Skolterapia!</h2>
+            <p>Esta é uma página criada para praticar o uso do Flexbox no CSS. Aqui você vai ver como organizar elementos de forma simples, moderna e responsiva.</p>
+            <p>O Flexbox é uma ferramenta poderosa para construir layouts flexíveis, ajustáveis e bonitos em qualquer tela.</p>
+        </section>
