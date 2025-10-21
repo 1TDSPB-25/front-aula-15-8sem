@@ -33,3 +33,8 @@ body {
     color: #ccc;
 }
 
+/* Commit 4: Menu de navegação */
+nav {
+    background-color: #222;
+    padding: 10px 0;
+}
