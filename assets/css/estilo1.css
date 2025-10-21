@@ -48,3 +48,19 @@ nav ul {
     padding: 0;
     margin: 0;
 }
+
+/* Commit 6: Estilo dos links e efeito hover */
+.link {
+    color: #00ff88;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: 1px solid #00ff88;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.link:hover {
+    background-color: #00ff88;
+    color: #111;
+}
