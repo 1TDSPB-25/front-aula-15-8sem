@@ -1,15 +1,14 @@
-/* ======= Reset básico ======= */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* ======= Estilo geral ======= */
 body {
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
-  color: #333;
+  color: #302929;
 }
 
 .container {
@@ -18,7 +17,6 @@ body {
   min-height: 100vh;
 }
 
-/* ======= Cabeçalho ======= */
 header {
   display: flex;
   justify-content: space-between;
@@ -48,7 +46,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* ======= Conteúdo principal ======= */
+
 main {
   flex: 1;
   display: flex;
@@ -60,20 +58,18 @@ main {
 section {
   background-color: white;
   border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 8px rgba(26, 23, 23, 0.1);
   padding: 20px;
 }
 
-/* Texto lateral com flex */
 aside {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* ======= Rodapé ======= */
 footer {
-  background-color: #222;
+  background-color: #251e1e;
   color: white;
   padding: 20px;
   display: flex;
@@ -91,7 +87,7 @@ footer nav ul {
 }
 
 footer nav a {
-  color: #00bcd4;
+  color: #086672;
   text-decoration: none;
 }
 
@@ -99,7 +95,6 @@ footer nav a:hover {
   text-decoration: underline;
 }
 
-/* ======= Responsividade ======= */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
