@@ -46,6 +46,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
     & h1{
         font-size: 4rem;
@@ -80,6 +81,45 @@ body{
                 transform: translateY(-6px)
             }
         }
+    }
+}
+
+@media (max-width:1300px) {
+        .container header{
+            flex-direction: column;
+            justify-content: space-around;
+                & nav{
+                    justify-content: center;
+                    align-items: center;
+                    & a{font-size: 2rem;
+                }
+            }
+        }
+    }
+
+@media (max-width:900px) and (orientation: portrait) {
+            .container header {
+            justify-content: space-around;
+            & nav{
+                justify-content: center;
+                align-items: center;
+                & a{font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .container header {
+        background-color: black;
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: light){
+    .container header {
+        background-color: white;
+        color: black;
     }
 }
  
