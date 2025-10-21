@@ -124,3 +124,20 @@ main {
 .card h3 {
     color: #ffcc00;
 }
+
+/* Commit 12: Responsividade com Flexbox */
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .conteudo, .imagem {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
