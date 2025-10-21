@@ -1,11 +1,11 @@
 <div style="text-align:center">
-  <h1 align="center"> 🎉1TDSPB - Front-end 🎉</h1>
+  <h1 align="center"> 1TDSPB - Front-end </h1>
   <p align="center">
     <img width="300" height="300" alt="Pascal o mascote" src="https://github.com/user-attachments/assets/75b21522-10b6-47cc-8d19-b8fa4aa49b3b" />
   </p>
 </div>
 
-Opa! 👋 esse é o nosso repositório das aulas de front-end, fique a vontade para estudar!
+Opa!  esse é o nosso repositório das aulas de front-end, fique a vontade para estudar!
 
 ### Branches
 
@@ -17,7 +17,7 @@ rm555666
 
 ## Exercícios
 
-Agora temos uma pasta só para os exercícios, assim não nos perdemos mais! 😬
+Agora temos uma pasta só para os exercícios, assim não nos perdemos mais! 
 
 - [Exercício 1 - entrega no dia 14/10](exercicios/1.md)
 - [Exercício 2 - entrega no dia ](exercicios/2.md)
