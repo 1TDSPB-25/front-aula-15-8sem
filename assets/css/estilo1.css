@@ -125,6 +125,17 @@ main {
     color: #ffcc00;
 }
 
+/* Commit 13: Estilo do rodapé com Flexbox */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+    padding: 15px;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
 /* Commit 12: Responsividade com Flexbox */
 @media (max-width: 768px) {
     main {
