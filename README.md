@@ -43,3 +43,4 @@ R: É so dar merge: `git merge main`
 Q: Tem um monte de cor diferente aqui
 
 R: Isso é um conflito, você precisa resolver abrindo o VSCode e resolvendo o conflito.
+
