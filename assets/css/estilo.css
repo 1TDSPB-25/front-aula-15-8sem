@@ -57,7 +57,7 @@ body {
         & a {
             display: flex;
             justify-content: center;
-            text-align:center;
+            text-align: center;
             align-items: center;
             text-decoration: none;
             font-size: 3rem;
@@ -68,20 +68,61 @@ body {
             padding: 1%;
             width: 15%;
             border-radius: 20px;
-            /*transform: scale(1);*/
+            /* transform: scale(1); */
             transform: translateY(0);
             transition: all 0.5s ease-in-out;
 
-            &:hover{
+            &:hover {
                 background-color: #fff;
                 color: #7e359e;
                 transform: scale(1.05);
                 transform: translateY(-6px);
             }
-
         }
     }
 }
+
+@media (max-width: 1300px) {
+    .container header {
+        flex-direction: column;
+        justify-content: space-around;
+            & nav {
+                justify-content: center;
+                align-items: center;
+                & a {
+                    font-size: 2rem;
+                }
+            }
+        }
+}
+
+@media (max-width: 800px) and (orientation: portrait) {
+    .container header {
+        justify-content: space-around;
+            & nav {
+                justify-content: center;
+                align-items: center;
+                & a {
+                    font-size: 1rem;
+                }
+            }
+        }
+}
+
+@media (prefers-color-scheme: light){
+    .container header {
+        background-color: black;
+        color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark){
+    .container header {
+        background-color: white;
+        color: #000;
+    }
+}
+
 
 .container main {
     background-color: #1d28bc;
