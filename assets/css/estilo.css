@@ -124,6 +124,20 @@ html {
     width:auto;
     border-radius: 20px;
 
-  
+    &:hover{
+        background-color: #fff;
+        color: #7e359e;
+        transform:scale(1.5);
+        
+        transition: color 1s;
+    }
 }
+
+@media (min-width:1300px) {
+    .container header{
+        flex-direction: column;
+    }
+}
+
 } 
+
