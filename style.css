@@ -328,3 +328,23 @@ footer {
   font-size: 0.75rem;
   color: #666;
 }
+
+@media (max-width: 1024px) {
+  #banner {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item-banner:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #banner {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .item-banner:nth-child(2) {
+    display: none;
+  }
+}
