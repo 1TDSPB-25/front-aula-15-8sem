@@ -43,14 +43,16 @@ nav img {
   font-weight: bold;
 }
 
-#banner img {
+#banner {
   display: grid;
-  grid-column: replace(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
 
-  width: 100%;
+.item-banner img {
+  max-width: 100%;
+  height: 60vh;
+  display: block;
   object-fit: cover;
-  object-position: center;
-  height: 40vh;
 }
 
 #infos-container {
