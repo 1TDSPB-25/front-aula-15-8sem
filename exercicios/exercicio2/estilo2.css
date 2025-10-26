@@ -1,0 +1,14 @@
+/* Commit 2: Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Commit 2: Estilos gerais */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #1d1c1c;
+  color: #fff;
+  line-height: 1.6;
+}
