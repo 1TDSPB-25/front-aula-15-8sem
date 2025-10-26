@@ -90,3 +90,12 @@ header {
 .card p {
   color: #ccc;
 }
+
+/* Commit 8: Footer */
+footer {
+  background-color: #1b1616;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  color: #999;
+}
