@@ -74,3 +74,43 @@ header h1 {
   gap: 24px;
   padding: 20px;
 }
+
+/* ============================
+   Commit 12: Estilo da sidebar
+============================ */
+aside {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+aside h2 {
+  margin-bottom: 10px;
+  color: #d6a700;
+  font-size: 1.2rem;
+}
+
+aside ul {
+  list-style: none;
+}
+
+aside ul li {
+  margin: 8px 0;
+}
+
+aside ul a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+aside ul a:hover {
+  color: #f1c40f;
+}
+
+aside ul a.ativo {
+  color: #f1c40f;
+  font-weight: bold;
+}
