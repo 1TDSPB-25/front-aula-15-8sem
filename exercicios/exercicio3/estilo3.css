@@ -109,3 +109,9 @@ header p {
   padding: 10px;
   color: #ffd700;
 }
+
+/* Commit 12: Hover nos cards */
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
