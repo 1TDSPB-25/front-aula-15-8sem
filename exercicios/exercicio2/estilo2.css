@@ -106,3 +106,10 @@ footer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* Commit 10: Responsividade desktop */
+@media (min-width: 1024px) {
+  .grid-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
