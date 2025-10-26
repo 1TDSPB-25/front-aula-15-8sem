@@ -142,3 +142,39 @@ footer {
     }
 }
 
+/* ===== Formulário de contato ===== */
+form.formulario {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.botao-enviar {
+    background-color: #00ff88;
+    color: #111;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao-enviar:hover {
+    background-color: #00cc6a;
+}
+
+/* ===== Galeria ===== */
+.cards img {
+    margin-bottom: 10px;
+}
+
