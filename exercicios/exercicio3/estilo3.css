@@ -70,3 +70,14 @@ header p {
   outline: none;
   width: 200px;
 }
+
+/* Commit 9: Galeria em Grid */
+.gallery {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-areas:
+    "a b c"
+    "d e f";
+  grid-template-columns: repeat(3, 1fr);
+}
