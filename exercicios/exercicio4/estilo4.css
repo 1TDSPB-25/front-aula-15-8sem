@@ -245,3 +245,10 @@ p {
 .post p {
   margin-bottom: 10px;
 }
+
+/* ============================
+   Commit 21: Finalização visual
+============================ */
+.post:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
