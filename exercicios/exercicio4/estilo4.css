@@ -209,3 +209,21 @@ a,
 button {
   transition: all 0.3s ease;
 }
+
+/* ============================
+   Commit 18: Cores refinadas
+============================ */
+:root {
+  --cor-principal: #f1c40f;
+  --cor-secundaria: #333;
+  --fundo: #fafafa;
+}
+
+body {
+  background-color: var(--fundo);
+}
+
+.nav a:hover {
+  background-color: var(--cor-principal);
+  color: #fff;
+}
