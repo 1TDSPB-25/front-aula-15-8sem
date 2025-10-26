@@ -81,3 +81,11 @@ header p {
     "d e f";
   grid-template-columns: repeat(3, 1fr);
 }
+
+/* Commit 10: Definição das áreas */
+.card:nth-child(1) { grid-area: a; }
+.card:nth-child(2) { grid-area: b; }
+.card:nth-child(3) { grid-area: c; }
+.card:nth-child(4) { grid-area: d; }
+.card:nth-child(5) { grid-area: e; }
+.card:nth-child(6) { grid-area: f; }
