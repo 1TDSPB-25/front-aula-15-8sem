@@ -43,3 +43,50 @@ header {
   transition: 0.3s;
   padding: 5px 10px;
 }
+
+/* Commit 5: Introdução */
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro h1 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #ffd700;
+}
+
+/* Commit 6: Grid base */
+.grid-cards {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  grid-template-columns: 1fr;
+}
+
+/* Commit 7: Cards */
+.card {
+  background-color: #2b2929;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #ccc;
+}
