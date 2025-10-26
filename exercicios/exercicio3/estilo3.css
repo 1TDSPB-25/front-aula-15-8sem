@@ -30,3 +30,43 @@ header p {
   color: #ccc;
   margin-top: 10px;
 }
+
+/* Commit 8: Toolbar com Flexbox */
+.toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 20px;
+  background-color: #2c2c2c;
+}
+
+.toolbar .btn {
+  background-color: #ffd700;
+  color: #1b1b1b;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toolbar .btn:hover {
+  background-color: #fff;
+}
+
+.toolbar .btn.ativo {
+  background-color: #fff;
+  color: #1b1b1b;
+  border: 2px solid #ffd700;
+}
+
+.toolbar input {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  width: 200px;
+}
