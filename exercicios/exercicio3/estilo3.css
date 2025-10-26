@@ -126,3 +126,29 @@ header p {
       "e f";
   }
 }
+
+/* Commit 14: Responsividade - Mobile */
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e"
+      "f";
+  }
+
+  .toolbar {
+    flex-direction: column;
+  }
+
+  .toolbar input {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+}
