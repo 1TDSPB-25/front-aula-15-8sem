@@ -12,3 +12,19 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+
+/* Commit 3: Header em Flexbox */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1616;
+  padding: 15px 30px;
+}
+
+/* Commit 3: Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffd700;
+}
