@@ -115,3 +115,14 @@ header p {
   transform: scale(1.05);
   box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
 }
+
+/* Commit 13: Responsividade - Tablet */
+@media (max-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "a b"
+      "c d"
+      "e f";
+  }
+}
