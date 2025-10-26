@@ -99,3 +99,10 @@ footer {
   margin-top: 30px;
   color: #999;
 }
+
+/* Commit 9: Responsividade tablet */
+@media (min-width: 768px) {
+  .grid-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
