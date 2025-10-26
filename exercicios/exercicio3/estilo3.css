@@ -89,3 +89,23 @@ header p {
 .card:nth-child(4) { grid-area: d; }
 .card:nth-child(5) { grid-area: e; }
 .card:nth-child(6) { grid-area: f; }
+
+/* Commit 11: Estilo dos cards */
+.card {
+  background-color: #2e2e2e;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px;
+  color: #ffd700;
+}
