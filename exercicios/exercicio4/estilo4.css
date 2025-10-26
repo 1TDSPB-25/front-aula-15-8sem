@@ -146,3 +146,14 @@ aside ul a.ativo {
   color: #d6a700;
   margin-bottom: 8px;
 }
+
+/* ============================
+   Commit 14: Rodapé
+============================ */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  margin-top: 40px;
+}
