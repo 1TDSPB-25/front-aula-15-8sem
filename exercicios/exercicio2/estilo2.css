@@ -51,6 +51,13 @@ header {
   border-radius: 5px;
 }
 
+/* Commit 13: Estado ativo */
+.menu a.active {
+  background-color: #ffd700;
+  color: #1b1616;
+  border-radius: 5px;
+}
+
 /* Commit 5: Introdução */
 .intro {
   text-align: center;
