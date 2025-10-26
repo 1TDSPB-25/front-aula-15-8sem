@@ -12,3 +12,21 @@ body {
   color: #fff;
   line-height: 1.6;
 }
+
+/* Commit 7: Header */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #252525;
+  border-bottom: 2px solid #ffd700;
+}
+
+header h1 {
+  color: #ffd700;
+  font-size: 2rem;
+}
+
+header p {
+  color: #ccc;
+  margin-top: 10px;
+}
