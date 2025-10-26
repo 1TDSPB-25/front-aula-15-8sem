@@ -44,6 +44,13 @@ header {
   padding: 5px 10px;
 }
 
+/* Commit 12: Hover diferenciado */
+.menu a:hover {
+  color: #1b1616;
+  background-color: #ffd700;
+  border-radius: 5px;
+}
+
 /* Commit 5: Introdução */
 .intro {
   text-align: center;
