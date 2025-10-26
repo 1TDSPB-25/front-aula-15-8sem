@@ -239,3 +239,9 @@ p {
   font-size: 1rem;
 }
 
+/* ============================
+   Commit 20: Espaçamento extra nos posts
+============================ */
+.post p {
+  margin-bottom: 10px;
+}
