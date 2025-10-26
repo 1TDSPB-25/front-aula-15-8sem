@@ -13,3 +13,20 @@ body {
   color: #333;
   line-height: 1.6;
 }
+
+/* ============================
+   Commit 8: Cabeçalho sticky
+============================ */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #d6a700;
+}
