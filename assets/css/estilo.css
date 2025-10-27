@@ -1,7 +1,7 @@
 * {
-margin: 0;
-padding: 0;
-box box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    box box-sizing: 0;
 }
 
 a {
@@ -9,3 +9,9 @@ a {
   color: inherit;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100px;
+    
+}
