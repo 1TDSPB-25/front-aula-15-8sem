@@ -10,24 +10,26 @@
     min-height: 100%;
 }
 
+body {
+font-family: Arial, Helvetica, sans-serif;
+color: #ffffff;
+min-height: 100px;
+display: flex;
+}
+
 header {
   background-color: #e66611;
   padding: 20px;
   text-align: center;
-  text-decoration-color: black;
+  margin-bottom: 10px;
 }
 
 nav a:hover {
     color: aqua;
 }
 
-a {
-  text-decoration: none;
-  color:azure
-}
-
 header h1 {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /*Que santa gambiarra*/
 }
 
 header nav {
@@ -36,6 +38,19 @@ header nav {
   flex-wrap: wrap;
   gap: 15px;
 }
+
+a {
+  text-decoration: none;
+  color:azure
+}
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  gap: 15px;
+}
+
 
 
 
