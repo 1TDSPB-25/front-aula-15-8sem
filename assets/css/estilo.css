@@ -4,14 +4,23 @@
     box box-sizing: 0;
 }
 
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .container {
     display: flex;
-    flex-direction: row;
-    min-height: 100px;
-    
+    flex-direction: column;
+    min-height: 100%;
 }
+
+header {
+  background-color: #e66611;
+  padding: 20px;
+  text-align: center;
+  text-decoration-color: black;
+}
+
+a {
+  text-decoration: none;
+  color:azure
+}
+
+
+
