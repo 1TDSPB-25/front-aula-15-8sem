@@ -75,7 +75,13 @@ footer nav a:hover {
   color: aqua;
 }
 
-
+footer nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 
 
