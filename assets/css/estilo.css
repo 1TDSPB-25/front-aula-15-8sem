@@ -30,6 +30,7 @@ nav a:hover {
 
 header h1 {
   margin-bottom: 10px; /*Que santa gambiarra*/
+  text-decoration-color: crimson
 }
 
 header nav {
@@ -41,8 +42,9 @@ header nav {
 
 a {
   text-decoration: none;
-  color:azure
+  color:aliceblue
 }
+
 main {
   flex: 1;
   display: flex;
@@ -50,6 +52,20 @@ main {
   background-color: #000000;
   gap: 15px;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+
+
+
+
+
+
 
 
 
