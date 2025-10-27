@@ -17,10 +17,28 @@ header {
   text-decoration-color: black;
 }
 
+nav a:hover {
+    color: aqua;
+}
+
 a {
   text-decoration: none;
   color:azure
 }
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+
+
 
 
 
