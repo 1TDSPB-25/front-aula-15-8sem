@@ -94,3 +94,10 @@ section h2 {
 section p {
   text-align: justify;
 }
+
+section aside {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
