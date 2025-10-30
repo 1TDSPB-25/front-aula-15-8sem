@@ -51,7 +51,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 8px 16px;
-  background-color: #d5ff86;
+  background-color: #98ca3b;
   color: #242424;
   text-decoration: none;
   border-radius: 6px;
@@ -82,4 +82,15 @@ section {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #222;
+  border-bottom: 2px solid #cedfb9;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+section p {
+  text-align: justify;
 }
