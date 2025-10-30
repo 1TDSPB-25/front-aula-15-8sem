@@ -38,3 +38,10 @@ header nav {
   justify-content: center;
   gap: 15px;
 }
+
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
