@@ -120,3 +120,15 @@ footer nav ul {
   gap: 10px;
   padding: 0;
 }
+
+footer a {
+  background-color: #333;
+  color: #98ca3b;
+  border: 1px solid #98ca3b;
+}
+
+footer a:hover {
+  background-color: #98ca3b;
+  color: #222;
+  border-color: #222;
+}
