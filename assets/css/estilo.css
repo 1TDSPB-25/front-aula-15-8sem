@@ -30,6 +30,10 @@ header {
 header h1 {
   font-size: 1.6rem;
   text-align: center;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, #aedb59, #75a12f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 header nav {
