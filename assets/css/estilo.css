@@ -45,3 +45,22 @@ header nav {
   justify-content: center;
   gap: 10px;
 }
+
+a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  background-color: #d5ff86;
+  color: #242424;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #242424;
+  color: #d5ff86;
+  transform: scale(1.05);
+}
