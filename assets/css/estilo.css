@@ -9,6 +9,9 @@ body {
   background-color: #f7f7f7;
   color: #333;
   line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -86,6 +89,7 @@ section {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  flex: 1
 }
 
 section h2 {
@@ -148,3 +152,5 @@ header, footer {
 a {
   cursor: pointer;
 }
+
+
