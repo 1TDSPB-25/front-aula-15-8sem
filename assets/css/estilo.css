@@ -51,7 +51,7 @@ a {
   align-items: center;
   justify-content: center;
   padding: 8px 16px;
-  background-color: #98ca3b;
+  background-color: #aedb59;
   color: #242424;
   text-decoration: none;
   border-radius: 6px;
@@ -61,7 +61,7 @@ a {
 
 a:hover {
   background-color: #242424;
-  color: #d5ff86;
+  color: #aedb59;
   transform: scale(1.05);
 }
 
@@ -123,12 +123,24 @@ footer nav ul {
 
 footer a {
   background-color: #333;
-  color: #98ca3b;
-  border: 1px solid #98ca3b;
+  color: #aedb59;
+  border: 1px solid #aedb59;
 }
 
 footer a:hover {
-  background-color: #98ca3b;
+  background-color: #aedb59;
   color: #222;
   border-color: #222;
+}
+
+section {
+  border-left: 4px solid #a2bd70;
+}
+
+header, footer {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  cursor: pointer;
 }
